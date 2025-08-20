@@ -1,0 +1,19 @@
+@use "_variables" as *;
+
+.primary-btn {
+  background-color: $color-primary;
+  color: $color-light;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.secondary-btn {
+  background-color: $color-secondary;
+  color: $color-light;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

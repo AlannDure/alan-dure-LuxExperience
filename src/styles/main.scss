@@ -1,0 +1,15 @@
+@use "_layout";
+@use "_theme.scss";
+@use "_variables";
+@use "_header";
+@use "_home";
+@use "_carousel";
+@use "_moviePage";
+@use "_wishlist";
+@use "_movieComponent";
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}

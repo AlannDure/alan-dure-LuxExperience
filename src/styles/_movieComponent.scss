@@ -1,0 +1,32 @@
+.two-column-layout {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+
+  .two-column-left,
+  .two-column-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .two-column-left,
+    .two-column-right {
+      text-align: center;
+      align-items: center;
+    }
+  }
+}
